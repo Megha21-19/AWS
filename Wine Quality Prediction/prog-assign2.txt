@@ -1,0 +1,35 @@
+bucket destination
+
+s3://my-bucket-source-cs643/data/
+
+----------------------------
+
+on startup
+
+sudo yum install pip
+
+pip install scikit-learn
+
+pip install pandas
+
+https://spark.apache.org/docs/latest/mllib-naive-bayes.html
+
+------------------------------
+
+get Docker file
+
+list of images
+docker image ls
+
+list of containers
+docker container ls
+
+
+In order to build the image, we need to run the following command:
+
+docker build -t <docker-ml-model-name> -f Dockerfile .
+
+To run your Custom Docker image:
+
+docker run <ml-model>
+
